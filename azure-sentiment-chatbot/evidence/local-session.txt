@@ -1,0 +1,13 @@
+Actual local CLI run without Azure credentials
+Inputs: ['hello', 'capabilities', 'examples', '', 'sentiment:', '/unknown', 'sentiment: I love this service.', 'quit']
+
+Azure Sentiment Chatbot | English | type help or quit
+Analysis sends text to Azure. Do not enter sensitive or personal information.
+You: Bot: Hello! I can analyze the sentiment of English text. Type help to begin.
+You: Bot: Commands: help, capabilities, examples, about, quit. Use sentiment: <English text> or type a sentence to analyze it. Limit: 1000 characters. Text for analysis is sent to Azure; avoid personal data.
+You: Bot: Try: sentiment: I love this service. | sentiment: My delivery was late. | sentiment: The shop opens at nine.
+You: Bot: Please enter a message. Type help for options.
+You: Bot: Please include words in the English text you want analyzed.
+You: Bot: Unknown command. Type help for supported commands.
+You: Bot: Azure is not configured. Set AZURE_LANGUAGE_KEY and AZURE_LANGUAGE_ENDPOINT.
+You: Bot: Goodbye!

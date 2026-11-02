@@ -1,0 +1,16 @@
+test_document_error (test_bot.AdapterTests.test_document_error) ... ok
+test_http_errors_redact_details (test_bot.AdapterTests.test_http_errors_redact_details) ... ok
+test_invalid_endpoint (test_bot.AdapterTests.test_invalid_endpoint) ... ok
+test_missing_credentials (test_bot.AdapterTests.test_missing_credentials) ... ok
+test_network_errors (test_bot.AdapterTests.test_network_errors) ... ok
+test_success_mapping (test_bot.AdapterTests.test_success_mapping) ... ok
+test_local_commands_never_call_cloud (test_bot.RouterTests.test_local_commands_never_call_cloud) ... ok
+test_malformed_input_never_calls_cloud (test_bot.RouterTests.test_malformed_input_never_calls_cloud) ... ok
+test_maximum_boundary (test_bot.RouterTests.test_maximum_boundary) ... ok
+test_multiple_prompts (test_bot.RouterTests.test_multiple_prompts) ... ok
+test_recovery_after_failure (test_bot.RouterTests.test_recovery_after_failure) ... ok
+
+----------------------------------------------------------------------
+Ran 11 tests in 0.049s
+
+OK
