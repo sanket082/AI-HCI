@@ -1,0 +1,13 @@
+id,title,minutes,tags,task
+joins,Find orders without customers,20,sql joins database,"Write a left join that finds orphan orders. Check it with one matched row and one missing customer."
+windows,Rank monthly sales,35,sql windows analytics,"Partition sales by store and rank each month by revenue. Decide how tied months should appear."
+index,Read a query plan,45,sql index database,"Compare a query plan before and after indexing a lookup column. Explain the change in scan strategy."
+rollback,Undo a partial transfer,30,sql transaction database,"Model a transfer across two accounts and roll back a failed debit. Verify both balances."
+mock,Isolate a payment service,25,java testing mock,"Replace a payment gateway with a mock. Assert that a rejected payment leaves the order pending."
+boundary,Test a date boundary,15,java testing date,"Write tests for a date range that crosses midnight. Include the first and last valid instant."
+api,Design a retryable endpoint,40,java api retry,"Sketch an order endpoint that accepts a retry key. Demonstrate two requests producing one order."
+batch,Restart a file import,50,java batch retry,"Record progress after each batch and simulate a restart. Check the output for duplicate records."
+labels,Label a confusing form,15,usability accessibility form,"Rewrite three form labels so each identifies the requested input. Add an example beside an ambiguous field."
+keyboard,Trace keyboard focus,20,usability accessibility keyboard,"Navigate a form with the keyboard. Record the focus order and repair one unreachable control."
+chart,Choose a comparison chart,25,analytics chart visualization,"Plot the same sales totals as bars and a line. Explain which chart supports comparing stores."
+axis,Repair a misleading axis,15,analytics chart visualization,"Redraw a bar chart with a zero baseline. Describe how the visual claim changes."
